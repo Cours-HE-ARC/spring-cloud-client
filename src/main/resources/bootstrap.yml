@@ -1,3 +1,11 @@
 spring:
   application:
     name: client-gateway-1
+
+  #consul configuration, utilisation de spring consul config aussi, donc dans bootstrap
+  cloud:
+    consul:
+      discovery:
+        tags: type=client 
+      host: localhost
+      port: 8500

@@ -1,4 +1,4 @@
-package ch.hearc.clientgateway1;
+package ch.hearc.clientgateway;
 
 import static org.junit.Assert.assertTrue;
 
@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
-public class SpringClientGateway1ApplicationTests {
+public class SpringClientGatewayApplicationTests {
 
 	//@Test
 	public void contextLoads() {
