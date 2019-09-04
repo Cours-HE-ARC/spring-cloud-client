@@ -1,15 +1,15 @@
-package ch.hearc.clientgateway1.application.api.web;
+package ch.hearc.clientgateway.application.api.web;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ch.hearc.clientgateway1.application.api.web.resources.HelloWorldResource;
+import ch.hearc.clientgateway.application.api.web.resources.HelloWorldResource;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-public class SpringClientController {
+public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public ResponseEntity<HelloWorldResource> hello(){

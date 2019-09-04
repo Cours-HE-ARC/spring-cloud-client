@@ -1,8 +1,11 @@
 server:
-  port: 8080
-  
+  port: ${PORT:8080}
+
+#consul configuration  
 spring:
   cloud:
     consul:
       discovery:
         tags: type=client 
+      host: localhost
+      port: 8500
